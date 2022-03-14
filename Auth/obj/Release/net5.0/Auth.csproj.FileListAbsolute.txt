@@ -1,0 +1,12 @@
+C:\Users\Paul Voicu\source\repos\IngTransactions\Auth\bin\Release\net5.0\Auth.deps.json
+C:\Users\Paul Voicu\source\repos\IngTransactions\Auth\bin\Release\net5.0\Auth.dll
+C:\Users\Paul Voicu\source\repos\IngTransactions\Auth\bin\Release\net5.0\ref\Auth.dll
+C:\Users\Paul Voicu\source\repos\IngTransactions\Auth\bin\Release\net5.0\Auth.pdb
+C:\Users\Paul Voicu\source\repos\IngTransactions\Auth\obj\Release\net5.0\Auth.csproj.AssemblyReference.cache
+C:\Users\Paul Voicu\source\repos\IngTransactions\Auth\obj\Release\net5.0\Auth.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Paul Voicu\source\repos\IngTransactions\Auth\obj\Release\net5.0\Auth.AssemblyInfoInputs.cache
+C:\Users\Paul Voicu\source\repos\IngTransactions\Auth\obj\Release\net5.0\Auth.AssemblyInfo.cs
+C:\Users\Paul Voicu\source\repos\IngTransactions\Auth\obj\Release\net5.0\Auth.csproj.CoreCompileInputs.cache
+C:\Users\Paul Voicu\source\repos\IngTransactions\Auth\obj\Release\net5.0\Auth.dll
+C:\Users\Paul Voicu\source\repos\IngTransactions\Auth\obj\Release\net5.0\ref\Auth.dll
+C:\Users\Paul Voicu\source\repos\IngTransactions\Auth\obj\Release\net5.0\Auth.pdb
