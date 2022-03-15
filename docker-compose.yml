@@ -1,0 +1,11 @@
+version: "3"
+services:
+  web:
+    image: dockerpaul.azurecr.io/imgtransactions
+    ports: ["80"]
+    deploy:
+      resources:
+        limits:
+          memory: "1G"
+      restart_policy:
+        condition: on-failure
