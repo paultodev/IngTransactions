@@ -39,9 +39,15 @@ namespace TestProject
         [Test]
         public void CheckCerts()
         {
-            var cert = new X509Certificate2(
+            bool isValid = false;
+            using (var cert = new X509Certificate2(
                 config.GetValue<string>("Certificates:signing:Path"),
-                config.GetValue<string>("Certificates:signing:Password"));
+                config.GetValue<string>("Certificates:signing:Password")))
+            {
+                isValid = cert.Verify();
+            }
+
+            Assert.That(isValid, Is.True);
         }
     }
 }
