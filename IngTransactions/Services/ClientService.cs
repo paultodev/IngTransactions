@@ -26,17 +26,9 @@ namespace IngTransactions.Services
         }
         public async Task<string> Authenticate()
         {
-            Uri uri = new Uri(httpClient.BaseAddress, "Service");
-
-            var body = new Dictionary<string, string>
-            {
-                { "grant_type","client_credentials" },
-            };
-
-            var encodedBody = new FormUrlEncodedContent(body);
             var payload = "grant_type=client_credentials";
             var request = new HttpRequestMessage(HttpMethod.Post, "https://api.sandbox.ing.com/oauth2/token");
-            request.Content = encodedBody;
+            request.Content = new StringContent(payload);
             var currentDate = DateTime.Now.ToUniversalTime().ToString("r");
             var computedValue = ComputeSHA256HashAsBase64String(payload);
             var digest = "SHA-256=" + computedValue;
